@@ -172,7 +172,7 @@ header {
 }
 
 .responsive__text {
-	text-align: center;
+	text-align: justify;
 	padding-left: 910px;
 }
 
@@ -206,7 +206,8 @@ header {
 	position: relative;
 	display: flex;
 	justify-content: space-around;
-	padding: 100px 230px;
+	margin: 100px;
+	background: #fff;
 	text-align: center;
 }
 
@@ -217,12 +218,15 @@ header {
 
 
 .blue {
+	display: flex;
+	align-items: center;
 	height: 200px;
 	background-color: #1f242d;
 }
 
 .blue__btn {
 	margin: auto;
+	padding: 0;
 	text-align: center;
 	width: 292px;
 	height: 70px;
@@ -235,16 +239,129 @@ header {
 }
 
 
+.team h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 80px 90px;
+}
+
+.container_team_item {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	background: #fff;
+	text-align: center;
+}
+
+.team_item {
+	width: 350px;
+	text-align: center;
+}
+
+.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-color: #6d8fb3;
+}
+
+.subscribe {
+	height: 450px;
+	background: url(../img/subscribe.jpg) no-repeat center top / cover;
+	margin-top: 90px;
+}
+
+.subscribe_form {
+	padding: 7% 35%;
+}
+
+.form {
+    width: 355px;
+    height: 40px;
+    padding-left: 9%;
+}
+
+.subscribe h2 {
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+}
+
+.cell {
+    display: block;
+    height: 60px;
+    width: 100%;
+    padding-left: 24px;
+    border: 3px solid #2a6348;
+	background: transparent;
+	cursor: pointer;
+    margin-bottom: 14px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.act {
+    background: #2a6348;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+    padding: 19px 30px;
+    text-decoration: none;
+    margin: -74px auto 20px 360px;
+    display: block;
+    width: 110px;
+    height: 60px;
+}
+
+.subscribe_img {
+	width: 2em;
+	padding-left: 45%;
+}
 
 
+.contacts {
+    height: 667px;
+    background-color: #d5dde2; 
+    margin-top: -20px;
+}
+
+.contacts h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 100px;
+}
+
+.contacts__cont h3 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container__contacts_cont {
+	position: relative;
+    display: flex;
+	justify-content: space-around;
+}
+
+.contacts__cont {
+	width: 360px;
+    height: 150px;
+	background: #fff;
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	height: 110px;
+	background-color: #1f242d;
+	color: #fff;
+}
 
 
-
-
-/*
-6) We are a team that loves what we do
-7) subscribe for a stay in the cycle
-8) write us a line
-*/
 
 
