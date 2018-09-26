@@ -1,7 +1,7 @@
 body {
-  font-family: Arial, sens-serif; /*шрифт и группа шрифтов без засечек*/
-  padding: 0; /*убираю внутренние отступы (рамка по краям)*/
-  margin: 0; /*убираю внешние отступ*/
+  margin: 0; 
+  padding: 0;
+  font-family: Arial, sens-serif; 
   color: #2a6348; 
 }
 
@@ -20,8 +20,8 @@ button {
   padding: 17px 0;
   font-size: 20px;
   color: #fff;
-  border: 3px solid #2a6348;
   background: transparent;
+  border: 3px solid #2a6348;
   cursor: pointer;
 }
 
@@ -29,37 +29,30 @@ button:hover {
   background: #2a6348;
 }
 
-.clearfix:after {
-  content:'';
-  display: table;
-  width: 100%;
-  clear: both;
-}
-
 header {
-  height: 100vh; /*высота изображения на ширину экрана*/
-  background: url(../img/1.1.jpg) no-repeat center top / cover; /*запрет повторения,по центру и верхнему краю, растягивание на всю ширину экрана*/ 
+  height: 100vh; 
+  background: url(../img/1.1.jpg) no-repeat center top / cover; 
 }
 
 .title {
-    position: absolute; /* Абсолютное позиционирование */
-    top: 50%; /* Положение слоя от верхнего края */
-    left: 50%; /* Положение слоя от левого края */
-    width: 700px; /* Ширина слоя в пикселах */
-    height: 600px; /* Высота слоя в пикселах */
-    margin-left: -211px; /* Отступ слева, включает padding и border */
-    margin-top: -250px; /* Отступ сверху */
-    letter-spacing: 0.2em; /*расстояние между буквами*/ 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  width: 700px; 
+  height: 600px; 
+  margin-left: -211px; 
+  margin-top: -250px; 
+  letter-spacing: 0.2em; 
 }
 
 header h1 {
-  font-size: 55px;
   font-weight: normal;
+  font-size: 55px;
   text-transform: uppercase;
 }
 
 header p {
-   margin-left: -90px;
+  margin-left: -90px;
 }
 
 header button {
@@ -72,17 +65,17 @@ header button {
 nav {
   position: absolute;
   top: 8%;
-  right: 230px; /*прижмется к правому краю*/
-  width: 40px; /*длина*/
+  right: 230px; 
+  width: 40px; 
   cursor: pointer;
 }
 
 nav span {
   display: block;
-  float: right; /*выравнивание палочек по правому краю*/
-  width: 100%; /*ширина палочек, чтобы не схлопывались*/
-  height: 2px; /*высота палочки*/
-  margin-bottom: 6px; /*расстояние между палочками*/
+  float: right; 
+  width: 100%; 
+  height: 2px; 
+  margin-bottom: 6px; 
   background: #EC7263;
 }
 
@@ -95,7 +88,7 @@ nav span:nth-child(3) {
 }
 
 nav:hover span {
-    float: left; /*при наведени палочки выравнятся по левому краю*/
+  float: left; 
 }
 
 .description {
@@ -124,8 +117,8 @@ nav:hover span {
 
 .services h2 {
   padding: 50px;
-  font-size: 25px;
   font-weight: bold;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -143,7 +136,7 @@ nav:hover span {
 }
 
 .item p {
-   font-size: 15px;
+  font-size: 15px;
 }
 
 .slider {
@@ -157,26 +150,26 @@ nav:hover span {
 }
 
 .slider__text {
-  text-align: justify;
   padding-left: 910px;
+  text-align: justify;
 }
 
 .slider__text h2 {
+  padding: 130px 80px;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 130px 80px;
 }
 
 .banner {
-  background: url(../img/flowers.jpg) no-repeat center top / cover; 
   height: 300px; 
+  background: url(../img/flowers.jpg) no-repeat center top / cover; 
 }
 
 .banner p {
   margin: 0;
   padding: 125px 125px 0px;
-  font-size: 35px;
   font-weight: normal;
+  font-size: 35px;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -189,8 +182,8 @@ nav:hover span {
   flex-wrap: nowrap;
   justify-content: space-around;
   margin: 100px;
-  background: #fff;
   text-align: center;
+  background: #fff;
 }
 
 .window__item h3 {
@@ -205,23 +198,23 @@ nav:hover span {
 }
 
 .registration__button {
-  margin: auto;
-  padding: 0;
-  text-align: center;
   width: 292px;
   height: 70px;
-    font-size: 20px;
-    color: #fff;
-    border: 2px solid #fff;
-    background: transparent;
-    cursor: pointer;
+  margin: auto;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  cursor: pointer;
   text-transform: uppercase;
 }
 
 .team h2 {
-    text-transform: uppercase;
-    text-align: center;
-    padding: 80px 90px;
+  padding: 80px 90px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .team__team-item {
@@ -229,8 +222,8 @@ nav:hover span {
   display: flex;
   flex-wrap: nowrap; 
   justify-content: space-around;
-  background: #fff;
   text-align: center;
+  background: #fff;
 }
 
 .team-item {
@@ -239,63 +232,63 @@ nav:hover span {
 }
 
 .social-instagram {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    vertical-align: middle;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .search-form {
   min-height: 450px;
-  background: url(../img/subscribe.jpg) no-repeat center top / cover;
   margin-top: 90px;
+  background: url(../img/subscribe.jpg) no-repeat center top / cover;
 }
 
 .search-form__content {
   width: 350px;
-    text-align: center;
-    padding-top: 100px;
-    margin: auto;
-}
-
-.search-form__content h2 {
-  text-transform: uppercase;
+  margin: auto;
+  padding-top: 100px;
   text-align: center;
 }
 
+.search-form__content h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .search-form__cell {
-    display: block;
-    height: 60px;
-    width: 100%;
-    border: 3px solid #2a6348;
+  display: block;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 14px;
+  font-size: 16px;
   background: transparent;
-  cursor: pointer;
-    margin-bottom: 14px;
-    font-size: 16px;
+  border: 3px solid #2a6348;
+  cursor: pointer;  
 }
 
 .search-form__button {
-    background: #2a6348;
-    text-transform: uppercase;
-    border-radius: 3px;
-    text-decoration: none;
-    margin: -74px auto 20px 360px;
-    display: block;
-    width: 110px;
-    height: 60px;
+  display: block;
+  width: 110px;
+  height: 60px;
+  margin: -74px auto 20px 360px;
+  background: #2a6348;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;  
 }
 
 .contacts {
-    height: 667px;
-    background-color: #d5dde2;
-    margin-top: -20px;
+  height: 667px;
+  margin-top: -20px;
+  background-color: #d5dde2;
 }
 
 .contacts h2 {
-    text-transform: uppercase;
-    text-align: center;
-    padding: 100px;
+  padding: 100px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .contacts p {
@@ -303,23 +296,23 @@ nav:hover span {
 }
 
 .contacts__container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contacts__container_item {
-    width: 360px;
-    height: 150px;
-    background: #fff;
-    text-align: center;
+  width: 360px;
+  height: 150px;
+  text-align: center;
+  background: #fff;
 }
 
 .footer {
   display: flex;
   align-items: center;
   height: 110px;
-  background-color: #1f242d;
   color: #fff;
+  background-color: #1f242d;
 }
 
 .footer p {
