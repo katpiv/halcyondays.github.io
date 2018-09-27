@@ -15,21 +15,11 @@ h3 {
   text-transform: uppercase;
 }
 
-button {
-  display: block;
-  padding: 17px 40px;
-  font-size: 20px;
-  color: #fff;
-  background: transparent;
-  border: 3px solid #2a6348;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #2a6348;
-}
-
 .top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh; 
   background: url(../img/1.1.jpg) no-repeat center top / cover; 
   letter-spacing: 0.2em; 
@@ -48,13 +38,24 @@ button:hover {
 }
 
 .top-section__button {
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 17px 40px;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  border: 3px solid #2a6348;
   border-radius: 8px; 
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.top-section__button-dropdown-menu {
+.top-section__button:hover {
+  background: #2a6348;
+}
+
+.top-section__dropdown-menu-button {
   position: absolute;
   top: 8%;
   right: 230px; 
@@ -62,7 +63,7 @@ button:hover {
   cursor: pointer;
 }
 
-.top-section__button-dropdown-menu item {
+.top-section__dropdown-menu-button item {
   display: block;
   float: right; 
   width: 100%; 
@@ -71,22 +72,17 @@ button:hover {
   background: #EC7263;
 }
 
-.top-section__button-dropdown-menu item:nth-child(2) {
+.top-section__dropdown-menu-button item:nth-child(2) {
   width: 75%;
 }
 
-.top-section__button-dropdown-menu item:nth-child(3) {
+.top-section__dropdown-menu-button item:nth-child(3) {
   width: 50%;
 }
 
-.top-section__button-dropdown-menu item:hover span {
+.top-section__dropdown-menu-button item:hover span {
   float: left; 
 }
-
-
-
-
-
 
 .description {
   position: relative;
