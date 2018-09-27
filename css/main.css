@@ -55,35 +55,6 @@ h3 {
   background: #2a6348;
 }
 
-.top-section__dropdown-menu-button {
-  position: absolute;
-  top: 8%;
-  right: 230px; 
-  width: 40px; 
-  cursor: pointer;
-}
-
-.top-section__dropdown-menu-button item {
-  display: block;
-  float: right; 
-  width: 100%; 
-  height: 2px; 
-  margin-bottom: 6px; 
-  background: #EC7263;
-}
-
-.top-section__dropdown-menu-button item:nth-child(2) {
-  width: 75%;
-}
-
-.top-section__dropdown-menu-button item:nth-child(3) {
-  width: 50%;
-}
-
-.top-section__dropdown-menu-button item:hover span {
-  float: left; 
-}
-
 .description {
   position: relative;
   display: inline-block;
