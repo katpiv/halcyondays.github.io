@@ -127,12 +127,12 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-.banner {
+.advertising-section {
   height: 300px; 
   background: url(../img/flowers.jpg) no-repeat center top / cover; 
 }
 
-.banner p {
+.advertising-section__text {
   margin: 0;
   padding: 125px 125px 0px;
   font-weight: normal;
@@ -143,7 +143,7 @@ div, span, p, a, input, button {
   letter-spacing: 0.2em;
 }
 
-.window {
+.publications {
   position: relative;
   display: flex;
   flex-wrap: nowrap;
@@ -153,7 +153,7 @@ div, span, p, a, input, button {
   background: #fff;
 }
 
-.window__item h3 {
+.publications__collection-item__title {
   margin-top: 50px;
 }
 
@@ -178,13 +178,13 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-.team h2 {
+.staff-section__title {
   padding: 80px 90px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.team__team-item {
+.staff-section__worker {
   position: relative;
   display: flex;
   flex-wrap: nowrap; 
@@ -193,12 +193,12 @@ div, span, p, a, input, button {
   background: #fff;
 }
 
-.team-item {
+.staff-section__worker-item {
   width: 350px;
   text-align: center;
 }
 
-.social-instagram {
+.staff-section__worker-item__instagram {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -219,12 +219,12 @@ div, span, p, a, input, button {
   text-align: center;
 }
 
-.search-form__content h2 {
+.search-form__title {
   text-align: center;
   text-transform: uppercase;
 }
 
-.search-form__cell {
+.search-form__text {
   display: block;
   height: 60px;
   width: 100%;
@@ -246,13 +246,13 @@ div, span, p, a, input, button {
   text-decoration: none;  
 }
 
-.contacts {
+.contacts-section {
   height: 667px;
   margin-top: -20px;
   background-color: #d5dde2;
 }
 
-.contacts h2 {
+.contacts-section__title {
   padding: 100px;
   text-align: center;
   text-transform: uppercase;
@@ -262,12 +262,12 @@ div, span, p, a, input, button {
   color: #bcb7b7;
 }
 
-.contacts__container {
+.contacts-section__address {
   display: flex;
   justify-content: space-around;
 }
 
-.contacts__container_item {
+.contacts-section__address-item {
   width: 360px;
   height: 150px;
   text-align: center;
@@ -282,6 +282,6 @@ div, span, p, a, input, button {
   background-color: #1f242d;
 }
 
-.footer p {
+.footer__text {
   padding-left: 80px;
 }
