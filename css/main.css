@@ -144,17 +144,26 @@ div, span, p, a, input, button {
 }
 
 .publications {
-  position: relative;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  margin: 100px;
   text-align: center;
-  background: #fff;
+}
+
+.publications-collection {
+  display: inline-flex;
+  margin: 0;
 }
 
 .publications-collection-item__title {
-  margin-top: 50px;
+  margin-top: 0;
+}
+
+.publications-collection-item {
+  list-style-type: none;
+}
+
+.publications-collection-item__title {
+  margin: 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .registration {
@@ -208,14 +217,8 @@ div, span, p, a, input, button {
 
 .search-form {
   min-height: 450px;
-  margin-top: 90px;
-  background: url(../img/subscribe.jpg) no-repeat center top / cover;
-}
-
-.search-form__content {
-  width: 350px;
-  margin: auto;
   padding-top: 100px;
+  background: url(../img/subscribe.jpg) no-repeat center top / cover;
   text-align: center;
 }
 
