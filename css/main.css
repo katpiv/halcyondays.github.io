@@ -89,13 +89,13 @@ div, span, p, a, input, button {
   justify-content: space-around;
 }
 
-.area-development__list__item {
+.area-development__list-item {
   width: 350px;
   text-align: center;
   list-style-type: none;
 }
 
-.area-development__list__item__title {
+.area-development__list-item__title {
   margin: 0px;
   padding-top: 50px;
   padding-bottom: 80px;
@@ -103,7 +103,7 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-.area-development__list__item__text {
+.area-development__list-item__text {
   margin: 0px;
   line-height: 2;
   font-size: 15px;
