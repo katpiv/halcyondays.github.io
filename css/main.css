@@ -109,23 +109,20 @@ div, span, p, a, input, button {
   font-size: 15px;
 }
 
-.slider {
+.design-section {
   height: 700px;
-  margin-top: 120px;
 }
 
-.slider img {
+.design-section__img {
   float: left;
   height: 100%;
 }
 
-.slider__text {
-  padding-left: 910px;
+.design-section__text {
   text-align: justify;
 }
 
-.slider__text h2 {
-  padding: 130px 80px;
+.design-section__title {
   font-size: 15px;
   text-transform: uppercase;
 }
