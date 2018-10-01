@@ -83,19 +83,19 @@ div, span, p, a, input, button {
   letter-spacing: 0.2em;
 }
 
-.area-development__list {
+.area-development-list {
   margin: 0;
   display: flex;
   justify-content: space-around;
 }
 
-.area-development__list-item {
+.area-development-list-item {
   width: 350px;
   text-align: center;
   list-style-type: none;
 }
 
-.area-development__list-item__title {
+.area-development-list-item__title {
   margin: 0px;
   padding-top: 50px;
   padding-bottom: 80px;
@@ -103,7 +103,7 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-.area-development__list-item__text {
+.area-development-list-item__text {
   margin: 0px;
   line-height: 2;
   font-size: 15px;
