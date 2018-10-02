@@ -205,34 +205,34 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-.staff-section__worker {
+.staff-section-worker {
   margin: 0;
   display: flex;
   justify-content: space-evenly;
 }
 
-.staff-section__worker-item {
+.staff-section-worker-item {
   width: 350px;
   padding: 97px 0 205px;
   text-align: center;
   list-style-type: none;
 }
 
-.staff-section__worker-item__title {
+.staff-section-worker-item__title {
   margin: 0;
   padding: 50px 0 50px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }    
 
-.staff-section__worker-item__text {
+.staff-section-worker-item__text {
   margin: 0;
   padding-bottom: 37px;
   width: 361px;
   line-height: 2;
 }
 
-.staff-section__worker-item__instagram {
+.staff-section-worker-item__instagram {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -312,7 +312,7 @@ div, span, p, a, input, button {
 }
 
 .contacts-section-instagram {
-  
+
 }
 
 .footer {
