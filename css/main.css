@@ -148,28 +148,35 @@ div, span, p, a, input, button {
 }
 
 .publications-collection {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
   margin: 0;
+}
+
+.publications-collection-item {
+  padding: 100px 0 190px;
+  list-style-type: none;
 }
 
 .publications-collection-item__title {
   margin-top: 0;
 }
 
-.publications-collection-item {
-  list-style-type: none;
-}
-
 .publications-collection-item__title {
   margin: 0;
+  padding: 40px 0 55px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
+.publications-collection-item__text {
+  line-height: 2;
+}
+
 .registration {
   display: flex;
-  align-items: center;
   height: 200px;
+  align-items: center;
   background-color: #1f242d;
 }
 
@@ -187,24 +194,42 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
+.staff-section {
+  margin: 0;
+}
+
 .staff-section__title {
-  padding: 80px 90px;
+  margin: 0;
+  padding-top: 90px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .staff-section__worker {
-  position: relative;
+  margin: 0;
   display: flex;
-  flex-wrap: nowrap; 
-  justify-content: space-around;
-  text-align: center;
-  background: #fff;
+  justify-content: space-evenly;
 }
 
 .staff-section__worker-item {
   width: 350px;
+  padding: 97px 0 205px;
   text-align: center;
+  list-style-type: none;
+}
+
+.staff-section__worker-item__title {
+  margin: 0;
+  padding: 50px 0 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}    
+
+.staff-section__worker-item__text {
+  margin: 0;
+  padding-bottom: 37px;
+  width: 361px;
+  line-height: 2;
 }
 
 .staff-section__worker-item__instagram {
@@ -242,7 +267,6 @@ div, span, p, a, input, button {
   display: block;
   width: 110px;
   height: 60px;
-  margin: -74px auto 20px 360px;
   background: #2a6348;
   border-radius: 3px;
   text-transform: uppercase;
@@ -250,31 +274,45 @@ div, span, p, a, input, button {
 }
 
 .contacts-section {
-  height: 667px;
-  margin-top: -20px;
-  background-color: #d5dde2;
+  min-height: 670px;
+  background-color: #f3f5f8;
+  text-align: center;
+  letter-spacing: 0.2em;
+
 }
 
 .contacts-section__title {
-  padding: 100px;
-  text-align: center;
+  margin: 0;
+  padding: 122px 0 127px;
   text-transform: uppercase;
 }
 
 .contacts-section-address {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: 0;
 }
 
 .contacts-section-address-item {
-  width: 360px;
-  height: 150px;
-  text-align: center;
+  margin: 0;
+  list-style-type: none;
   background: #fff;
 }
 
+.contacts-section-address-item__title {
+  margin: 0;
+  padding: 20px 137px 30px 137px;
+  text-transform: uppercase;
+}
+
 .contacts-section-address-item__text {
+  margin: 0;
+  padding-bottom: 27px;
   color: #bcb7b7;
+}
+
+.contacts-section-instagram {
+  
 }
 
 .footer {
