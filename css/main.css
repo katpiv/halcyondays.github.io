@@ -227,7 +227,7 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-.search-form__text {
+.search-form__input {
   display: block;
   height: 60px;
   width: 100%;
@@ -261,20 +261,20 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-.contacts p {
-  color: #bcb7b7;
-}
-
-.contacts-section__address {
+.contacts-section-address {
   display: flex;
   justify-content: space-around;
 }
 
-.contacts-section__address-item {
+.contacts-section-address-item {
   width: 360px;
   height: 150px;
   text-align: center;
   background: #fff;
+}
+
+.contacts-section-address-item__text {
+  color: #bcb7b7;
 }
 
 .footer {
