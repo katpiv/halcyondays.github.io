@@ -159,10 +159,6 @@ div, span, p, a, input, button {
 }
 
 .publications-collection-item__title {
-  margin-top: 0;
-}
-
-.publications-collection-item__title {
   margin: 0;
   padding: 40px 0 55px;
   letter-spacing: 0.1em;
