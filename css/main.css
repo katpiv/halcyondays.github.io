@@ -153,7 +153,6 @@ div, span, p, a, input, button {
   text-transform: uppercase;
 }
 
-
 .publications {
   text-align: center;
 }
@@ -274,6 +273,12 @@ div, span, p, a, input, button {
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.search-form__go-up {
+  position: relative;
+  top: 300px;
+  right: 290px;  
 }
 
 .contacts-section {
