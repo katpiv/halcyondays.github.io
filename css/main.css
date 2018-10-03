@@ -307,8 +307,9 @@ div, span, p, a, input, button {
   color: #bcb7b7;
 }
 
-.contacts-section-instagram {
-
+.contacts-section__instagram {
+  position: relative;
+  top: 70px;
 }
 
 .footer {
