@@ -85,6 +85,7 @@ div, span, p, a, input, button {
 
 .area-development-list {
   margin: 0;
+  padding-bottom: 120px;
   display: flex;
   justify-content: space-around;
 }
@@ -115,16 +116,27 @@ div, span, p, a, input, button {
 
 .design-section__img {
   float: left;
-  height: 100%;
 }
 
-.design-section__text {
+.design-section-text {
+  position: relative;
+  left: 10%;
+  margin: 0;
   text-align: justify;
+  letter-spacing: 0.1em;
 }
 
-.design-section__title {
+.design-section-text__title {
+  margin: 0;
+  padding-top: 133px;
+  padding-bottom: 80px;
   font-size: 15px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
+}
+
+.design-section-text__item {
+  padding-top: 30px;
 }
 
 .advertising-section {
@@ -142,6 +154,7 @@ div, span, p, a, input, button {
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
+
 
 .publications {
   text-align: center;
