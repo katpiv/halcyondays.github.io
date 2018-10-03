@@ -121,8 +121,6 @@ div, span, p, a, input, button {
 .design-section-text {
   position: relative;
   left: 10%;
-  margin: 0;
-  text-align: justify;
   letter-spacing: 0.1em;
 }
 
@@ -241,11 +239,9 @@ div, span, p, a, input, button {
 }
 
 .staff-section-worker-item__instagram {
-  display: inline-block;
   width: 40px;
   height: 40px;
   margin-right: 10px;
-  vertical-align: middle;
 }
 
 .search-form {
@@ -301,6 +297,7 @@ div, span, p, a, input, button {
 
 .contacts-section-address-item {
   margin: 0;
+  padding: 30px;
   list-style-type: none;
   background: #fff;
 }
@@ -313,13 +310,24 @@ div, span, p, a, input, button {
 
 .contacts-section-address-item__text {
   margin: 0;
-  padding-bottom: 27px;
   color: #bcb7b7;
 }
 
-.contacts-section__instagram {
+.contacts-section-social-network {
   position: relative;
   top: 70px;
+}
+
+.contacts-section-social-network__inst {
+  text-decoration: none;
+}
+
+.contacts-section-social-network__fb {
+  margin: 25px;
+  text-decoration: none;
+}
+
+.contacts-section-social-network__vk {
 }
 
 .footer {
