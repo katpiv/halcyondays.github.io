@@ -133,14 +133,14 @@ div, span, p, a, input, button {
 }
 
 .advertising-section__text {
+  position: relative;
+  top: 30%;
   margin: 0;
-  padding: 125px 125px 0px;
-  font-weight: normal;
   font-size: 35px;
-  color: #fff;
   text-align: center;
-  text-transform: uppercase;
+  color: #fff;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 .publications {
@@ -217,14 +217,14 @@ div, span, p, a, input, button {
 .staff-section-worker-item__title {
   margin: 0;
   padding: 50px 0 50px;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 }    
 
 .staff-section-worker-item__text {
   margin: 0;
-  padding-bottom: 37px;
   width: 361px;
+  padding-bottom: 37px;
   line-height: 2;
 }
 
@@ -271,10 +271,9 @@ div, span, p, a, input, button {
 
 .contacts-section {
   min-height: 670px;
-  background-color: #f3f5f8;
   text-align: center;
   letter-spacing: 0.2em;
-
+  background-color: #f3f5f8;
 }
 
 .contacts-section__title {
@@ -314,8 +313,8 @@ div, span, p, a, input, button {
 
 .footer {
   display: flex;
-  align-items: center;
   height: 110px;
+  align-items: center;
   color: #fff;
   background-color: #1f242d;
 }
