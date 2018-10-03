@@ -190,10 +190,8 @@ div, span, p, a, input, button {
 }
 
 .registration__button {
-  width: 292px;
-  height: 70px;
   margin: auto;
-  padding: 0;
+  padding: 17px 40px;
   font-size: 20px;
   text-align: center;
   color: #fff;
@@ -201,6 +199,7 @@ div, span, p, a, input, button {
   background: transparent;
   cursor: pointer;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .staff-section {
