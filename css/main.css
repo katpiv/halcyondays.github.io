@@ -127,13 +127,12 @@ div, span, p, a, input, button {
 }
 
 .advertising-section {
-  height: 300px; 
   background: url(../img/flowers.jpg) no-repeat center top / cover; 
 }
 
 .advertising-section__text { 
   margin: 0;
-  padding-top: 100px;
+  padding: 120px;
   font-size: 35px;
   text-align: center;
   color: #fff;
@@ -142,22 +141,17 @@ div, span, p, a, input, button {
 }
 
 .publications {
+  margin: 100px 0 150px;
   text-align: center;
 }
 
 .publications-collection {
   display: flex;
   justify-content: space-evenly;
-  margin: 0;
-}
-
-.publications-collection-item {
-  padding: 100px 0 190px;
   list-style-type: none;
 }
 
 .publications-collection-item__title {
-  margin: 0;
   padding: 40px 0 55px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
