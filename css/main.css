@@ -163,16 +163,15 @@ div, span, p, a, input, button {
 
 .registration {
   display: flex;
-  height: 200px;
-  align-items: center;
+  flex-direction: column;
+  padding: 100px;
   background-color: #1f242d;
 }
 
 .registration__button {
-  margin: auto;
+  align-self: center;
   padding: 17px 40px;
   font-size: 20px;
-  text-align: center;
   color: #fff;
   border: 2px solid #fff;
   background: transparent;
