@@ -185,34 +185,30 @@ div, span, p, a, input, button {
 }
 
 .staff-section__title {
-  margin: 0;
-  padding-top: 90px;
+  margin-top: 90px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .staff-section-worker {
-  margin: 0;
   display: flex;
   justify-content: space-evenly;
 }
 
 .staff-section-worker-item {
   width: 350px;
-  padding: 97px 0 205px;
+  margin: 100px 0 200px;
   text-align: center;
   list-style-type: none;
 }
 
 .staff-section-worker-item__title {
-  margin: 0;
   padding: 50px 0 50px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }    
 
 .staff-section-worker-item__text {
-  margin: 0;
   width: 361px;
   padding-bottom: 37px;
   line-height: 2;
