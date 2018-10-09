@@ -225,19 +225,16 @@ div, span, p, a, input, button {
 }
 
 .search-form {
-  min-height: 450px;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
   background: url(../img/subscribe.jpg) no-repeat center top / cover;
-  text-align: center;
-}
-
-.search-form__title {
-  text-align: center;
-  letter-spacing: 0.1em;
   text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
-.search-form__search {
+.search-form__input {
   padding: 20px 150px;
   font-size: 15px;
   background: transparent;
@@ -254,12 +251,6 @@ div, span, p, a, input, button {
   border-radius: 5px;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-.search-form__go-up {
-  position: relative;
-  top: 300px;
-  right: 290px;  
 }
 
 .contacts-section {
@@ -320,5 +311,5 @@ div, span, p, a, input, button {
 .footer__text {
   margin: 0;
   padding: 50px 0 50px 220px;
-  
+
 }
