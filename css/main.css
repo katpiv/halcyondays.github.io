@@ -73,11 +73,12 @@ div, span, p, a, input, button {
 }
 
  .area-development {
-  height: 740px;
+  margin-bottom: 120px;
 }   
 
 .area-development__title {
-  margin: 100px 0 120px;
+  margin: 0;
+  padding: 100px 0 120px;
   font-weight: bold;
   font-size: 25px;
   text-align: center;
