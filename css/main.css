@@ -254,27 +254,26 @@ div, span, p, a, input, button {
 }
 
 .contacts-section {
-  min-height: 670px;
+  padding: 120px;
   text-align: center;
   letter-spacing: 0.2em;
   background-color: #f3f5f8;
 }
 
 .contacts-section__title {
-  margin: 0;
-  padding: 122px 0 127px;
+  margin-bottom: 130px;
   text-transform: uppercase;
 }
 
 .contacts-section-address {
   display: flex;
-  justify-content: space-evenly;
-  margin: 0;
+  justify-content: space-between;
+  padding-left: 90px;
+  list-style-type: none;
 }
 
 .contacts-section-address-item {
   padding: 30px;
-  list-style-type: none;
   background: #fff;
 }
 
@@ -286,12 +285,11 @@ div, span, p, a, input, button {
 
 .contacts-section-address-item__text {
   margin: 0;
-  color: #bcb7b7;
+  color: #ada7a7;
 }
 
 .contacts-section-social-network {
-  position: relative;
-  top: 70px;
+  margin-top: 90px;  
 }
 
 .contacts-section-social-network__inst {
@@ -299,7 +297,6 @@ div, span, p, a, input, button {
 }
 
 .contacts-section-social-network__fb {
-  margin: 25px;
   text-decoration: none;
 }
 
