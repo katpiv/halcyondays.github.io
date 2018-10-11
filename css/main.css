@@ -9,6 +9,18 @@ div, span, p, a, input, button {
   box-sizing: border-box;
 } 
 
+button {
+  padding: 17px 40px;
+  font-size: 20px;
+  color: #fff;
+  background: transparent;
+  border: 3px solid #2a6348;
+  border-radius: 8px; 
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+}
+
 .top-section {
   display: flex;
   justify-content: center;
@@ -34,14 +46,7 @@ div, span, p, a, input, button {
 .top-section__button {
   margin-left: auto;
   margin-right: auto;
-  padding: 17px 40px;
-  font-size: 20px;
-  color: #fff;
-  background: transparent;
-  border: 3px solid #2a6348;
-  border-radius: 8px; 
-  text-transform: uppercase;
-  cursor: pointer;
+  border: 3px solid #2a6348; 
 }
 
 .top-section__button:hover {
@@ -50,7 +55,6 @@ div, span, p, a, input, button {
 
 .project-description {
   background-color: #f3f5f8;
-  background-size: cover;
 }
    
 .project-description__title {
@@ -169,14 +173,7 @@ div, span, p, a, input, button {
 
 .registration__button {
   align-self: center;
-  padding: 17px 40px;
-  font-size: 20px;
-  color: #fff;
   border: 2px solid #fff;
-  background: transparent;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 
 .staff-section {
@@ -236,14 +233,8 @@ div, span, p, a, input, button {
 }
 
 .search-form__button {
-  padding: 20px 30px;
-  font-size: 20px;
-  letter-spacing: 0.1em;
-  color: #fff;
   background: #2a6348;
   border-radius: 5px;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 
 .contacts-section {
