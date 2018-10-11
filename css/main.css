@@ -21,6 +21,10 @@ button {
   letter-spacing: 0.1em;
 }
 
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
 .top-section {
   display: flex;
   justify-content: center;
@@ -34,13 +38,13 @@ button {
   margin: 0 auto; 
   font-weight: normal;
   font-size: 55px;
-  text-transform: uppercase;
 }
 
 .top-section__subtitle {
   font-weight: normal;
   text-align: center;
   color: #374d54;
+  text-transform: none;
 }
 
 .top-section__button {
@@ -62,7 +66,6 @@ button {
   padding: 100px;
   font-size: 25px;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 0.2em;
 }
 
@@ -84,7 +87,6 @@ button {
   font-weight: bold;
   font-size: 25px;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 0.2em;
 }
 
@@ -101,7 +103,6 @@ button {
 .area-development-list-item__title {
   margin: 50px 0 80px;
   font-size: 15px;
-  text-transform: uppercase;
 }
 
 .area-development-list-item__text {
@@ -126,7 +127,6 @@ button {
   font-size: 15px;
   text-align: center;
   letter-spacing: 0.2em;
-  text-transform: uppercase;
 }
 
 .advertising-section {
@@ -157,7 +157,7 @@ button {
 .publications-collection-item__title {
   padding: 40px 0 55px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+
 }
 
 .publications-collection-item__text {
@@ -183,7 +183,6 @@ button {
 .staff-section__title {
   margin-top: 90px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .staff-section-worker {
@@ -201,7 +200,6 @@ button {
 .staff-section-worker-item__title {
   padding: 50px 0 50px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
 }    
 
 .staff-section-worker-item__text {
@@ -246,7 +244,6 @@ button {
 
 .contacts-section__title {
   margin-bottom: 130px;
-  text-transform: uppercase;
 }
 
 .contacts-section-address {
@@ -264,7 +261,6 @@ button {
 .contacts-section-address-item__title {
   margin: 0;
   padding: 20px 137px 30px 137px;
-  text-transform: uppercase;
 }
 
 .contacts-section-address-item__text {
