@@ -221,7 +221,6 @@ div, span, p, a, input, button {
 }
 
 .search-form {
-  display: block;
   text-align: center;
   padding: 150px;
   background: url(../img/subscribe.jpg) no-repeat center top / cover;
