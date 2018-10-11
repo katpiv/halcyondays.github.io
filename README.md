@@ -1,3 +1,3 @@
-https://katpiv.github.io/halcyondays.github.io/halcyon%20days/index.html
+https://katpiv.github.io/halcyondays.github.io/
 
 Учебный проект в рамках стажировки 
